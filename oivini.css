@@ -1,0 +1,228 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;     
+    font-size: 17px;
+    color:rgb(0, 0, 0);
+    margin: 0px;
+}
+
+article {
+    padding-top: 50px;     
+    padding-bottom: 30px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block; 
+
+    
+    
+    
+}
+
+.box {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    background-color: bisque;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+
+}
+
+.box:hover {
+    background-color: white;
+    transform: rotate(180deg);
+    
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 148, 0);
+}
+
+p {
+    color: rgb(0, 105, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    text-align:center;
+    
+
+    
+
+    
+}
+
+.btn {     
+    background-color: #4caf50;     
+    border: none;     
+    color: #fff;     
+    padding: 10px 15px;     
+    text-align: center;     
+    text-decoration: none;     
+    font-size: 18px; 
+    
+}
+
+header {
+    background-color: antiquewhite;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.target {
+    font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 1s;
+  }
+  
+  .target:hover {
+    font-size: 18px;
+}
+
+
+.container1 {
+    background-color: aqua;
+    background-image: url('oioioi.jpg');
+    background-size: 100%;
+    margin-top: -100px;
+    margin-bottom: -10px;
+    border-bottom: 50px;
+    padding-bottom: 500px;
+    padding-top: 50px;
+  
+  
+    background-position: center;
+}
+
+img {
+    border-radius: 70px;
+    padding: 20px;
+}
+
+
+
+.container2 {
+    padding-top: 50px;     
+    padding-bottom: 30px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block;
+}
+
+
+.container3 {
+    padding-top: 50px;     
+    padding-bottom: 30px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block;
+}
+
+.container4 {
+    padding-top: 50px;     
+    padding-bottom: 30px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block;
+}
+
+
+.container5 {
+    padding-top: 50px;     
+    padding-bottom: 30px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block;
+}
+
+
+.container6 {
+    border: 5px red solid;         
+    display: block;
+    background-image: url('66785.jpg');
+    margin: 15px;
+}
+
+
+
+
+
+
+.navMenu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .navMenu a {
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:hover {
+    color: #fddb3a;
+  }
+  
+  .navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #fddb3a;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(110px);
+    transform: translateX(110px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(285px);
+    transform: translateX(285px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
