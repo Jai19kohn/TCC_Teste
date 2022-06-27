@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e5d8c5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #270f27;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+

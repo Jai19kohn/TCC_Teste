@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+nav {
+    background: #586f69;
+    color: #b6c2aa;
+    padding: 50px;
+    
+
+    
+}
+.login {
+    width: 50px;
+    right: 50px;
+    float: right;
+    padding-right:px ;
+    margin-top: -30px;
+}
+a.emcima{
+    float: right;
+    font-size:  25px;
+    margin-top: -20px;
+    padding-left : 10px;
+    padding-right: 20px;
+    color: #b6c2aa;
+    text-decoration: none;
+    cursor: pointer;
+	display: block;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+a.emcima:hover {
+    color: black;
+    background-color: white;
+    text-shadow: nthree;
+}
+
+a.emcima:hover:before {
+    left: 0%;
+    right: auto;
+    width: 100%;
+}
+
+a.emcima:before{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right:0px;
+    height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+    color: #32293c;
+    background: #b6c2aa;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
